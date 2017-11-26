@@ -1,0 +1,25 @@
+﻿生成启动时间为 2017/1/5 9:23:15。
+     1>项目“F:\项目\a1\a1\a1.vcxproj”在节点 2 上(Build 个目标)。
+     1>PrepareForBuild:
+         正在创建目录“F:\项目\a1\Release\”。
+       InitializeBuildStatus:
+         正在创建“Release\a1.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\vs2012\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt a1.cpp
+         a1.cpp
+     1>a1.cpp(37): warning C4018: “<”: 有符号/无符号不匹配
+     1>a1.cpp(115): warning C4018: “<=”: 有符号/无符号不匹配
+     1>a1.cpp(138): warning C4018: “<=”: 有符号/无符号不匹配
+       Link:
+         D:\vs2012\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\项目\a1\Release\a1.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\项目\a1\Release\a1.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\项目\a1\Release\a1.lib" /MACHINE:X86 /SAFESEH Release\a1.obj
+         正在生成代码
+         已完成代码的生成
+         a1.vcxproj -> F:\项目\a1\Release\a1.exe
+       FinalizeBuildStatus:
+         正在删除文件“Release\a1.unsuccessfulbuild”。
+         正在对“Release\a1.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\项目\a1\a1\a1.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.60
